@@ -1,10 +1,10 @@
 [![Coverage Status](https://coveralls.io/repos/github/lessworkjs/optional.js/badge.svg?branch=master)](https://coveralls.io/github/lessworkjs/optional.js?branch=master) 
 [![Build Status](https://travis-ci.org/lessworkjs/optional.js.svg?branch=master)](https://travis-ci.org/lessworkjs/optional.js)
 
-# optional.js
-Optionally load object parameters.
+# Optional
+Optionally load object parameters. Return the parameter or null.
 
-Idea based on the Laravel [optional](https://laravel.com/docs/5.6/helpers#method-optional) helper.
+Idea based off the Laravel [optional](https://laravel.com/docs/5.6/helpers#method-optional) helper.
 
 # Install
 ```
