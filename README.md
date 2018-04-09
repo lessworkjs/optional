@@ -31,3 +31,24 @@ console.log(optional(users[0].address).street);
 console.log(optional(users[1].address).street);
 // 101 Main St.
 ``` 
+
+You can also use an optional callback:
+```js
+const results = optional(users[0], user => ({
+  name: user.name,
+  address: {
+    street: '202 Main St.',
+  },
+}));
+
+console.log(results)
+/**
+ * {
+      name: 'John',
+      address: {
+        street: '202 Main St.',
+      },
+    }
+ */
+```
+  

@@ -1,6 +1,6 @@
 {
   "name": "@lessworkjs/optional",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Optionally load object parameters",
   "main": "src/index.js",
   "directories": {
