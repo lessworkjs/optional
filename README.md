@@ -1,3 +1,4 @@
+[![Coverage Status](https://coveralls.io/repos/github/lessworkjs/optional.js/badge.svg?branch=master)](https://coveralls.io/github/lessworkjs/optional.js?branch=master) 
 [![Build Status](https://travis-ci.org/lessworkjs/optional.js.svg?branch=master)](https://travis-ci.org/lessworkjs/optional.js)
 
 # optional.js
