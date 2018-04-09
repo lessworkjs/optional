@@ -32,4 +32,20 @@ test.group('Optional', () => {
   test('should return the street.', () => {
     expect(optional(user.address).street).to.equal('101 Main St.');
   });
+
+  test('should return callback modified street.', () => {
+    const newAddress = optional(user, user => ({
+      name: user.name,
+      address: {
+        street: '202 Main St.',
+      },
+    }));
+
+    expect(newAddress).to.deep.equal({
+      name: 'John',
+      address: {
+        street: '202 Main St.',
+      },
+    });
+  });
 });
