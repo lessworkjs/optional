@@ -8,12 +8,12 @@ Idea based off the Laravel [optional](https://laravel.com/docs/5.6/helpers#metho
 
 # Install
 ```
-npm i optional.js
+npm i @lessworkjs/optional
 ```
 
 # Example
 ```js
-const optional = require('optional.js');
+const optional = require('@lessworkjs/optional');
 
 const users = [{
   name: 'Jane',
