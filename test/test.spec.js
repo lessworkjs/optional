@@ -17,6 +17,10 @@ const users = [{
 const user = users[1];
 
 test.group('Optional', () => {
+  test('should return null if missing value and has callback.', () => {
+    expect(optional(null, () => {})).to.be.null;
+  });
+
   test('should return null if missing address value.', () => {
     expect(optional(user.address).street0).to.be.null;
   });
