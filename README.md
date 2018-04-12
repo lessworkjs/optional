@@ -1,5 +1,5 @@
 [![Coverage Status](https://coveralls.io/repos/github/lessworkjs/optional.js/badge.svg?branch=master)](https://coveralls.io/github/lessworkjs/optional.js?branch=master) 
-[![Build Status](https://travis-ci.org/lessworkjs/optional.js.svg?branch=master)](https://travis-ci.org/lessworkjs/optional.js)
+[![Build Status](https://travis-ci.org/lessworkjs/optional.svg?branch=master)](https://travis-ci.org/lessworkjs/optional)
 
 # Optional
 Optionally load object parameters. Return the parameter or null.
